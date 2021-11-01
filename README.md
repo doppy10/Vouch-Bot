@@ -8,10 +8,10 @@ A vouch bot for keeping track of reputation between users
 
 Commands | Usage
 ------------ | -------------
-downvote | downvote <@user | userID> <reason>
-ping | ping
-reputation | reputation <@user | userID>
-vouch | vouch <@user | userID>
++dv | +dv <@user | userID> <reason>
++ping | +ping
++p | +p <@user | userID>
++v | +v <@user | userID>
 
 # ✨ Contributors
 - Coded by Raccoon#7867
