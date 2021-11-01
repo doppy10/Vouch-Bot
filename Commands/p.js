@@ -3,8 +3,8 @@ const {
 } = require("discord.js")
 
 module.exports = {
-    name: "reputation",
-    description: "View the reputation of a user",
+    name: "p",
+    description: "View the profile of a user",
     aliases: ['rep'],
     execute: async function (message, args, client, user) {
         let vouchUser = message.mentions.users.first() || (args[0] ? await client.users.fetch(args[0]) : undefined) || message.author
